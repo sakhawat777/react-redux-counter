@@ -17,8 +17,7 @@ export const Counter = () => {
 			<div>
 				<button
 					aria-label='Increment count'
-					onClick={() => dispatch(increment())}
-					onChange={(e) => setIncrementAmount(e.target.value)}>
+					onClick={() => dispatch(increment())}>
 					Increment
 				</button>
 				<p>{count}</p>
